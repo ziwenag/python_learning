@@ -21,6 +21,7 @@ print(set)
 dict = {'a':1, 'b':2}
 print(dict)
 
+# a encrypt demo
 text = '''
 AL KHOR - Enner Valencia scored two first-half goals as Ecuador beat hosts Qatar 2-0 in the opening match of the FIFA World Cup on Sunday.
 
@@ -47,3 +48,21 @@ for j in text:
         encrypt_text = encrypt_text + j
 
 print(encrypt_text)
+
+# a dencrypt demo
+msg = 'abcdefghijklmnopqrstuvwxyz'
+code = 'ZEBRASCDFGHIJKLMNOPQTUVWXY'
+
+de_key = {}
+for m in range(26):
+    de_key[code[m]] = msg[m]
+print(de_key)
+
+decrypt_text = ''
+for n in encrypt_text:
+    if n in code:
+        decrypt_text = decrypt_text + de_key[n]
+    else:
+        decrypt_text = decrypt_text + n
+print(decrypt_text)
+
