@@ -1,4 +1,25 @@
 # This is ch1
+#Number
+print(1,2,3)
+
+#String
+print('I Love Python')
+
+#list
+list = ['a',1,'b']
+print(list)
+
+#Tuple
+tuple = ('c',2,'d')
+print(tuple)
+
+#Set
+set = {'a', 'a', 'b', 'b'}
+print(set)
+
+#Dictionary
+dict = {'a':1, 'b':2}
+print(dict)
 
 text = '''
 AL KHOR - Enner Valencia scored two first-half goals as Ecuador beat hosts Qatar 2-0 in the opening match of the FIFA World Cup on Sunday.
