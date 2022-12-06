@@ -1,6 +1,6 @@
-### This is ch1
+### This is ch1 note
 
-# section 1, data type
+## 1.1 pyton的数据类型, python data type
 #Number
 print(1,2,3)
 
@@ -23,7 +23,7 @@ print(set)
 dict = {'a':1, 'b':2}
 print(dict)
 
-#section 2, a encryption demo
+## 1.2, 一个加密示例 a encryption demo
 text = '''
 AL KHOR - Enner Valencia scored two first-half goals as Ecuador beat hosts Qatar 2-0 in the opening match of the FIFA World Cup on Sunday.
 
@@ -51,7 +51,7 @@ for j in text:
 
 print(encrypt_text)
 
-#section 3, a dencryption demo
+## 1.3, 一个解密示例 , a dencryption demo
 msg = 'abcdefghijklmnopqrstuvwxyz'
 code = 'ZEBRASCDFGHIJKLMNOPQTUVWXY'
 
