@@ -1,3 +1,4 @@
+### This is ch2 note
 # 文件读取
 f = open('work/novel1.txt')
 text = f.read()
